@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg4534"
+   width="154.82001"
+   height="154.82001"
+   viewBox="0 0 154.82001 154.82001"
+   sodipodi:docname="startbutton.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata4540">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4538" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview4536"
+     showgrid="false"
+     inkscape:zoom="3.5779603"
+     inkscape:cx="180.95599"
+     inkscape:cy="99.748116"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 2"
+     style="display:inline"
+     transform="translate(0,-92.18)">
+    <rect
+       style="fill:#ece1dc;fill-opacity:1"
+       id="rect4655"
+       width="120"
+       height="120"
+       x="-123.09204"
+       y="114.35331"
+       rx="18"
+       ry="18"
+       transform="rotate(-44.636844)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 1"
+     style="display:inline"
+     transform="translate(0,-92.18)">
+    <g
+       id="g4607"
+       transform="rotate(135.42331,89.248015,159.27327)">
+      <rect
+         ry="15"
+         rx="15"
+         y="-153.94135"
+         x="110.94594"
+         height="100"
+         width="100"
+         id="rect4546"
+         style="fill:#221f25;fill-opacity:1"
+         transform="rotate(90)" />
+    </g>
+    <rect
+       style="fill:#ece1dc;fill-opacity:1;stroke-width:0.9530642"
+       id="rect4560"
+       width="16"
+       height="16"
+       x="-182.41937"
+       y="-70.909042"
+       transform="rotate(-134.57669)" />
+    <rect
+       style="fill:#221f25;fill-opacity:1;stroke-width:0.92367846"
+       id="rect4562"
+       width="12"
+       height="12"
+       x="-176.41937"
+       y="-64.909058"
+       transform="rotate(-134.57669)" />
+  </g>
+</svg>

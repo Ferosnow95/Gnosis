@@ -1,0 +1,88 @@
+<!-- 
+    QUIZ PAGE
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QuizIt</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="quiz_results_no_account.css">
+        
+    </head>
+    
+    <body>        
+        <div class="container-fluid bs_container">
+            <div id="row_0" class="row row_0">
+            </div>
+            <div id="row_1" class="row row_1">			
+                <div class="col-2 login">
+                    <button id="login_button_0" type="button" class="login_button">
+                        <span>Login</span>
+                    </button>
+                </div>				
+                <div class="col-9">
+                </div>                
+                <div class="col">
+                    <button id="settings_button" type="button" class="settings_logo_style">
+						<img src="settings_button.svg" class="settings_logo" />
+					</button>
+                </div>            
+            </div>            
+            <div id="row_2" class="row row_2">
+                <div class="col-10 quiz_div">
+                    <div class="row_x">
+                        <div class="column">
+                            <div class="test_results_text">Test Results</div>
+                        </div>
+                        <div class="column">
+                            <div id="circle" class="circle">
+                                <p><br><span id="percentage" style="font-size: 70px"></span><br><span id="number" style="font-size: 30px"></span></p>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <span style="font-size: 12px"><br>Looks like we have a genius in our midst. Congratulations! Save your scores by creating an account with us.</span>
+                            <br><br>
+                            <button id="register" type="button" class="btn register_button">Sign up Here</button>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div id="row_3" class="row row_3">
+                <div class="col-9">
+                </div>
+                <div id="start_button_col" class="col-3">
+                    <p>
+                        <div id="message_above_start_button" class="message_above_start_button">Back to Home</div>
+                    </p>
+                    <p>
+                        <button id="start_button" type="button" class="start_button">
+                            <img src="startbutton.svg" class="start_logo" />
+                        </button>
+                    </p>
+                </div>
+            </div>
+            <div id="row_4" class="row row_4">    
+            </div>
+            <div id="row_5" class="row row_5">
+            </div>
+            <div id="row_6" class="row row_6">
+            </div>
+            <div id="row_7" class="row row_7">
+            </div>
+            <div id="row_8" class="row row_8">
+            </div>
+            <div id="row_9" class="row row_9">
+            </div>
+        </div>
+    
+        <script>var page_index = 5;</script>
+        <script src="quiz_results_no_account.js"></script>
+    
+    </body>    
+</html>

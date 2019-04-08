@@ -1,0 +1,121 @@
+<!-- 
+    SIGN UP PAGE
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QuizIt</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="sign_up.css">
+        
+    </head>
+    
+    <body>        
+        <div class="container-fluid bs_container">
+            <div id="row_0" class="row row_0">
+            </div>
+            <div id="row_1" class="row row_1">			
+                <div class="col-2 login">
+                    <button id="login_button_0" type="button" class="login_button">
+                        <span>Login</span>
+                    </button>
+                </div>				
+                <div class="col-9">
+                </div>                
+                <div class="col">
+                    <button id="settings_button" type="button" class="settings_logo_style">
+						<img src="settings_button.svg" class="settings_logo" />
+					</button>
+                </div>            
+            </div>            
+            <div id="row_2" class="row row_2">
+            </div>            
+            <div id="row_3" class="row row_3">
+                <div class="col-1">
+                </div>
+                <div id="start_button_col" class="col-3">
+                    <p>
+                        <div id="message_above_start_button" class="message_above_start_button">Sign up here</div>
+                    </p>
+                    <p>
+                        <button id="start_button" type="button" class="start_button">
+                            <img src="startbutton.svg" class="start_logo" />
+                        </button>
+                    </p>
+                </div>
+            </div>
+            <div id="row_4" class="row row_4">
+            </div>
+            <div id="row_5" class="row row_5">
+                <div class="col-3">
+                </div>
+                <div class="col-7 text_on_dark_background content_1">
+                    <span>You need an email address for registration.</span>  
+                </div>                
+            </div>
+            <div id="row_6" class="row row_6">
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                    <input type="text" name="email" id="email" tabindex="1" class="form-control input_style_1 content_1" placeholder="Email" value="" required>
+                </div>
+                <div class="col-2">
+                    <button id="continue_1" type="button" class="btn btn-light continue_button_style content_1">Continue</button>   
+                </div>
+            </div>
+            <div id="row_7" class="row row_7">
+                <div class="col-3">
+                </div>
+                <div class="col-7 text_on_dark_background content_2">
+                    <span>Tell us about yourself.</span>  
+                </div>
+            </div>
+            <div id="row_8" class="row row_8">
+                <div class="col-3">
+                </div>
+                <div class="col-2">
+                    <input type="text" name="first_name" id="first_name" tabindex="2" class="form-control input_style_1 content_2" placeholder="First Name" value="" required>
+                </div>
+                <div class="col-2">
+                    <input type="text" name="last_name" id="last_name" tabindex="3" class="form-control input_style_1 content_2" placeholder="Last Name" value="" required>
+                </div>
+                <div class="col-2">
+                </div>
+                <div class="col-2">
+                    <button id="continue_2" type="button" class="btn btn-light continue_button_style content_2">Continue</button>   
+                </div>
+            </div>
+            <div id="row_9" class="row row_9">
+                <div class="col-3">
+                </div>
+                <div class="col-7 text_on_dark_background content_3">
+                    <span>Secure yourself.</span>  
+                </div>
+            </div>
+            <div id="row_10" class="row row_10">
+                <div class="col-3">
+                </div>
+                <div class="col-3">
+                    <input type="password" name="pwd" id="pwd" tabindex="2" class="form-control input_style_1 content_3" placeholder="Password" value="" required>
+                </div>
+                <div class="col-3">
+                    <input type="password" name="confirmed_pwd" id="confirmed_pwd" tabindex="3" class="form-control input_style_1 content_3" placeholder="Confirm Password" value="" required>
+                </div>
+                <div class="col-2">
+                    <button id="continue_3" type="button" class="btn btn-light continue_button_style content_3">Continue</button>   
+                </div>
+            </div>
+        </div>
+    
+        <script>var page_index = 2;</script>
+        <script src="sign_up.js"></script>
+        <script>window.setTimeout(function(){auto_start();}, 800);</script>
+    
+    </body>    
+</html>

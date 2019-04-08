@@ -1,0 +1,165 @@
+html, body {
+    height: 100%;
+}
+            
+.bs_container {
+    min-height: 100%;
+    height: 100%;
+}
+
+
+
+
+.row_0 {
+    height: 5%;
+    background-color: #ECE1DC;
+}
+            
+.row_1 {
+    height: 5%;
+    background-color: #ECE1DC;
+}
+            
+.row_2 {
+    height: 74%;
+    background-color: #ECE1DC;
+}
+            
+.row_3 {
+    height: 8%;
+    background-color: #ECE1DC;
+    z-index: 2;
+}
+            
+.row_4 {
+    height: 8%;
+    background-color: #221F25;
+    z-index: -1;
+}
+            
+.row_5 {
+    height: 0%;
+    background-color: #221F25;
+    z-index: -1;
+}
+            
+.row_6 {
+    height: 0%;
+    background-color: #221F25;
+    z-index: -1;
+}
+            
+.row_7 {
+    height: 0%;
+    background-color: #221F25;
+    z-index: -1;
+}
+            
+.row_8 {
+    height: 0%;
+    background-color: #221F25;
+    z-index: -1;
+}
+            
+.row_9 {
+    height: 0%;
+    background-color: #221F25;
+    z-index: -1;
+}
+            
+.row_10 {
+    height: 0%;
+    background-color: #221F25;
+    z-index: -1;
+}
+
+
+
+
+            
+
+            
+.login {
+    opacity: 1;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 7.5px;
+	text-align: center;
+}
+
+.content_1 {
+    display: none;
+}
+
+.content_2 {
+    display: none;
+}
+
+.content_3 {
+    display: none;
+}
+
+.text_on_dark_background {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 14px;
+    color: #FAF7F2;
+	text-align: left;
+}
+
+.button_style_1 {
+    padding: 10px 20px 10px 20px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 14px;
+    color: #FAF7F2;
+	text-align: left;
+}
+
+.continue_button_style {
+    padding: 5px 20px 5px 20px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 14px;
+    color: #221F25;
+}
+			
+.settings_logo {
+    height: 10px;
+    width: 16px;
+}
+			
+.start_logo {
+    height: 60px;
+    width: 60px;
+    z-index: 2;
+}
+			
+.settings_logo_style {
+	border: none;
+	background: none;
+}
+			
+.login_button {
+	border: none;
+	background: none;
+}
+			
+.start_button {
+    border: none;
+	background: none;
+	color: white;
+    z-index: 2;
+}
+
+.message_above_start_button {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 12px;
+    color: #221F25;
+}
+
+.input_style_1 {
+    width: 80%;
+    background-color: #221F25;
+    border: 1px solid #ECE1DC;
+}

@@ -1,0 +1,95 @@
+<!-- 
+    QUIZ PAGE
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QuizIt</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="quiz.css">
+        
+    </head>
+    
+    <body>        
+        <div class="container-fluid bs_container">
+            <div id="row_0" class="row row_0">
+            </div>
+            <div id="row_1" class="row row_1">			
+                <div class="col-2 login">
+                    <button id="login_button_0" type="button" class="login_button">
+                        <span>Login</span>
+                    </button>
+                </div>				
+                <div class="col-9">
+                </div>                
+                <div class="col">
+                    <button id="settings_button" type="button" class="settings_logo_style">
+						<img src="settings_button.svg" class="settings_logo" />
+					</button>
+                </div>            
+            </div>            
+            <div id="row_2" class="row row_2">
+                <div id="quiz_div" class="col-8 quiz_div">
+                    
+                    <div id="type_of_question" class="type_of_question">
+                    </div>                    
+                    <br>                    
+                    <div id="question" class="question">
+                    </div>                    
+                    <br>                            
+                    <br>                        
+                    <br>                
+                    <div id="answers" class="answers">
+                    </div>                
+                    <br>
+                    <br>
+                    
+                </div>
+            </div>            
+            <div id="row_3" class="row row_3">
+            </div>
+            <div id="row_4" class="row row_4">                
+                <div class="col-1">
+                </div>
+                <div id="progress_bar" class="col-8 progress_bar">
+                    <br>
+                    <div class="w3-dark-grey">
+                        <div id="bar" class="w3-white bar"></div>
+                    </div>
+                </div>
+                <div class="col-2">          
+                    <div style="width: 50%; float: left;">
+                    <button id="previous_button" type="button" class="btn btn-space control_buttons">
+                        <img src="previous.svg" class="control_button_logos" />
+                    </button>        
+                    </div>
+                    <div style="width: 50%; float: right">
+                    <button id="next_button" type="button" class="btn btn-space control_buttons">
+                        <img src="next.svg" class="control_button_logos" />
+                    </button>
+                    </div>                    
+                </div>
+            </div>
+            <div id="row_5" class="row row_5">
+            </div>
+            <div id="row_6" class="row row_6">
+            </div>
+            <div id="row_7" class="row row_7">
+            </div>
+            <div id="row_8" class="row row_8">
+            </div>
+            <div id="row_9" class="row row_9">
+            </div>
+        </div>
+    
+        <script>var page_index = 4;</script>
+        <script src="quiz.js"></script>
+    
+    </body>    
+</html>

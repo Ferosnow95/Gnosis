@@ -1,0 +1,88 @@
+<!-- 
+    LOGIN PAGE
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QuizIt</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="login.css">
+        
+    </head>
+    
+    <body>        
+        <div class="container-fluid bs_container">
+            <div id="row_0" class="row row_0">
+            </div>
+            <div id="row_1" class="row row_1">			
+                <div class="col-2 login">
+                    <button id="login_button_0" type="button" class="login_button">
+                        <span>Login</span>
+                    </button>
+                </div>				
+                <div class="col-9">
+                </div>                
+                <div class="col">
+                    <button id="settings_button" type="button" class="settings_logo_style">
+						<img src="settings_button.svg" class="settings_logo" />
+					</button>
+                </div>            
+            </div>            
+            <div id="row_2" class="row row_2">
+                <div id="login_div" class="col-6 login_div">
+                    <div class="welcome_message">Welcome Back!</div>
+                    <div class="welcome_message_2">Login to Ginosis to save and view your previous results.</div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div style="width: 50%; float:left">
+                        <input type="text" name="email" id="email" tabindex="1" class="form-control input_style_1" placeholder="Email" value="" required>
+                    </div>
+
+                    <div style="width: 50%; float:right">  
+                        <input type="password" name="password" id="password" tabindex="2" class="form-control input_style_1" placeholder="Password" required>
+                    </div>
+                    
+                    <br>
+                    <p><div id="login_error" class="alert alert-warning login_error"></div></p>
+                    <p>
+                        <label><input type="checkbox" class="checkbox_style"><span></span> <span class="checkbox_text_style"> Remember Credentials</span></label>        
+                    </p>         
+                    <br>
+                    <div class="dark_login_button">
+                        <button id="login_button_1" type="button" class="btn btn-dark login_button_2">Login</button>
+                    </div>   
+                    <br>
+                    <div class="dark_login_button">
+                        <button id="register" type="button" class="btn btn-light register_button">Don't have an account?</button>
+                    </div>                 
+                </div>
+            </div>            
+            <div id="row_3" class="row row_3">
+            </div>
+            <div id="row_4" class="row row_4">
+            </div>
+            <div id="row_5" class="row row_5">
+            </div>
+            <div id="row_6" class="row row_6">
+            </div>
+            <div id="row_7" class="row row_7">
+            </div>
+            <div id="row_8" class="row row_8">
+            </div>
+            <div id="row_9" class="row row_9">
+            </div>
+        </div>
+    
+        <script>var page_index = 1;</script>
+        <script src="login.js"></script>
+    
+    </body>    
+</html>
