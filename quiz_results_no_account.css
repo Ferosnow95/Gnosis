@@ -386,9 +386,8 @@ html, body {
 
 .message_above_start_button {
     font-family: "Arial Narrow", Arial, sans-serif;
-    font-size: 12px;
+    font-size: 30px;
     color: #221F25;
-    display: none;
 }
 			
 .start_logo {
