@@ -69,9 +69,8 @@ html, body {
 
 
 
-
-            
-.login {
+@media screen and (min-width:1000px) {
+    .login {
     opacity: 1;
     font-family: "Arial Narrow", Arial, sans-serif;
     font-style: normal;
@@ -199,4 +198,143 @@ html, body {
 
 .server_no_response {
     display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+            
+.login {
+    opacity: 1;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 7.5px;
+	text-align: center;
+}
+
+.login_text {
+    color: #221F25;
+}
+
+.settings_logo {
+    height: 50px;
+    width: 80px;
+}
+			
+.settings_logo_style {
+	border: none;
+	background: none;
+}
+			
+.login_button {
+	border: none;
+	background: none;
+}
+			
+.answer_button {
+    padding: 5px 25px 5px 25px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 40px;
+    color: #221F25;
+    background-color: #ECE1DC;
+    border: 1px solid #221F25;
+}
+			
+.answer_button_chosen {
+    padding: 5px 25px 5px 25px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 40px;
+    background-color: #221F25;
+    color: #ECE1DC;
+}
+            
+.quiz_div {
+    margin: auto;
+}
+            
+.login_error {
+    display: none;
+}
+
+.input_style_1 {
+    width: 95%;
+    background-color: #ECE1DC;
+    border: 1px solid #221F25;
+}
+
+.checkbox_style {
+    background-color: #ECE1DC;
+    border: 1px solid #221F25;    
+}
+
+.dark_login_button {
+    text-align: center;
+}
+
+#progress_bar {
+    background-color: #221F25;
+}
+
+.bar {
+    height: 5px; 
+    width: 0%;
+}
+
+.progress_bar_div {
+}
+
+.control_buttons {
+    background: none;
+    border: none;
+}
+
+.control_button_logos {
+    width: 60px;
+    height: 60px;    
+}
+
+.type_of_question {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+	font-size: 20px;
+	color: black;
+}
+
+.question {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+	font-size: 50px;
+	color: black;    
+}
+
+.server_no_response {
+    display: none;
+}
+
+
 }
