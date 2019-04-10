@@ -68,13 +68,24 @@ function update_rows(layout_array) {
 */
 
 $("#login_button_0").click(function() {
-    log("login_button_0 clicked");
-    location.href="login.html";
+    var loggedin = localStorage.getItem("loggedin");
+    if(loggedin == undefined || loggedin == "false") {
+        log("login_button_0 clicked");
+        location.href="login.html";
+    } else {
+        localStorage.setItem("loggedin",false);
+        $("#login_button_0").text("Login");
+    }
 });
 
 $("#settings_button").click(function() {
     log("settings_button clicked");
-    location.href="quiz_history_results.html";
+    var loggedin = localStorage.getItem("loggedin");
+    if(loggedin == undefined || loggedin == false) {
+        location.href = "sign_up.html";
+    } else {
+        location.href="quiz_history_results.html";
+    }
 });
 
 $("#start_button").click(function() {
@@ -197,3 +208,10 @@ $("#sports_and_fitness").click(function() {
     }, 500);
     localStorage.setItem("category", "21");
 });
+
+var loggedin = localStorage.getItem("loggedin");
+if(loggedin == undefined || loggedin == false) {
+    $("#login_button_0").text("Login");
+} else {
+    $("#login_button_0").text("Logout");
+}

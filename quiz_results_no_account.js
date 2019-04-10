@@ -75,3 +75,11 @@ $("#start_button").click(function(){
 $("#register").click(function(){
    location.href="sign_up.html"; 
 });
+
+
+var loggedin = localStorage.getItem("loggedin");
+if(loggedin == undefined || loggedin == false) {
+    $("#login_button_0").text("Login");
+} else {
+    $("#login_button_0").text("Logout");
+}

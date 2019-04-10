@@ -79,6 +79,7 @@ $("#login_button_1").click(function() {
         $("#login_error").fadeIn();
         return;
     }
+    localStorage.setItem("loggedin", true);
     location.href="quiz_history_results.html";
 });
 

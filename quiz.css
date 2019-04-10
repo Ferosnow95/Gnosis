@@ -196,3 +196,7 @@ html, body {
 	font-size: 26px;
 	color: black;    
 }
+
+.server_no_response {
+    display: none;
+}

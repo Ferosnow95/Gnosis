@@ -61,3 +61,10 @@ $("#start_button").click(function() {
     log("start_button clicked");
     location.href="quiz.html";
 });
+
+var loggedin = localStorage.getItem("loggedin");
+if(loggedin == undefined || loggedin == false) {
+    $("#login_button_0").text("Login");
+} else {
+    $("#login_button_0").text("Logout");
+}

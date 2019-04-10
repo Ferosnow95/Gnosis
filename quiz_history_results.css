@@ -13,27 +13,32 @@ html, body {
 .row_0 {
     height: 0%;
     background-color: #ECE1DC;
+    border: none;
 }
             
 .row_1 {
     height: 50%;
     background-color: #ECE1DC;
+    border: none;
 }
             
 .row_2 {
     height: 50%;
     background-color: #ECE1DC;
+    border: none;
 }
             
 .row_3 {
     height: 0%;
     background-color: #ECE1DC;
     z-index: 2;
+    border: none;
 }
 
 .part_b {
     margin: auto;
     text-align: center;
+    border: none;
 }
 
 .gnosis_style {
@@ -42,6 +47,7 @@ html, body {
     font-weight: normal;
 	font-size: 60px;
     text-align: center;
+    border: none;
 }
 
 .bottom_message {
@@ -49,7 +55,8 @@ html, body {
     font-style: normal;
     font-weight: normal;
 	font-size: 14px;
-    text-align: center;        
+    text-align: center; 
+    border: none;       
 }
 
 .slide_down_div {
@@ -57,6 +64,7 @@ html, body {
     background: url(slide_down.svg);
     background-size: 100% 100%;
     text-align: center;
+    border: none;
 }
 
 .content_1 {
@@ -70,6 +78,7 @@ html, body {
     font-weight: normal;
 	font-size: 60px;
     text-align: center;   
+    border: none;
 }
 
 .percentage {
@@ -77,7 +86,8 @@ html, body {
     font-style: normal;
     font-weight: normal;
 	font-size: 60px;
-    text-align: center;     
+    text-align: center; 
+    border: none;    
 }
 
 .small_text {
@@ -85,20 +95,23 @@ html, body {
     font-style: normal;
     font-weight: normal;
 	font-size: 14px;
-    text-align: center;      
+    text-align: center;    
+    border: none;  
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    border: none;
 }
 
 /* Clear floats after the columns */
 .row_x:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
+    border: none;
 }

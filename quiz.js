@@ -101,6 +101,15 @@ var c;
 function display_question(index) {
     log("display question " + index);
     log(questions.results[index]);
+    if(questions == undefined || questions.results.length == 0) {
+        $("#server_no_response").fadeIn();
+        window.setTimeout(function() {
+            location.href = "landing_page.html";
+        }, 3000);
+    } else {
+        $("#server_no_response").fadeOut();        
+    }
+    
     var q = questions.results[index].question;
     var t = questions.results[index].type;
     c = questions.results[index].correct_answer;
@@ -142,7 +151,14 @@ function display_question(index) {
 */
 
 $("#login_button_0").click(function() {
-    log("login_button_0 clicked");
+    var loggedin = localStorage.getItem("loggedin");
+    if(loggedin == undefined || loggedin == "false") {
+        log("login_button_0 clicked");
+        location.href="login.html";
+    } else {
+        localStorage.setItem("loggedin",false);
+        $("#login_button_0").text("Login");
+    }
 });
 
 $("#settings_button").click(function() {
@@ -189,3 +205,15 @@ function choose(index) {
     log(score);
     localStorage.setItem("score", score);
 }
+
+
+var loggedin = localStorage.getItem("loggedin");
+if(loggedin == undefined || loggedin == false) {
+    $("#login_button_0").text("Login");
+} else {
+    $("#login_button_0").text("Logout");
+}
+
+$(document).ready(function() {
+    localStorage.setItem("score", Array(10));
+});

@@ -172,4 +172,5 @@ $("#continue_3").click(function() {
             index++;            
         }
     }
+    location.href = "quiz_history_results.html";
 });

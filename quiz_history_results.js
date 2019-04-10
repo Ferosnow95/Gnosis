@@ -65,11 +65,27 @@ function update_rows(layout_array) {
     BUTTON CONTROLS
 */
 
+var result = 0;
+
+$(document).ready(function(){
+    var score = localStorage.getItem("score");
+    var i = 0;
+    for(i = 0; i < score.length; i ++) {
+        try {
+            if(score[i] == 1) {
+                result++;
+            }
+        } catch(e){}
+    }
+});
+
+
 function display_histry() {
     window.setTimeout(function(){
         $(".content_1").fadeIn();
-        
-    }, 1000);
+        $("#percentage").text("" + (result * 10) + "%");
+        $("#small_text").text("" + result +" out of 10 correct answers.")
+    }, 500);
     
 }
 
