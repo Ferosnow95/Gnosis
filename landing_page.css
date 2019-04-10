@@ -13,11 +13,13 @@ html, body {
 .row_0 {
     height: 5%;
     background-color: #ECE1DC;
+    border: none;
 }
             
 .row_1 {
     height: 5%;
     background-color: #ECE1DC;
+    border: none;
 }
             
 .row_2 {
@@ -26,48 +28,56 @@ html, body {
     height: 74%;
     background-color: #ECE1DC;
     overflow:hidden;
+    border: none;
 }
             
 .row_3 {
     height: 8%;
     background-color: #ECE1DC;
     z-index: 2;
+    border: none;
 }
             
 .row_4 {
     height: 8%;
     background-color: #221F25;
     z-index: -1;
+    border: none;
 }
             
 .row_5 {
     height: 0%;
     background-color: #221F25;
     z-index: -1;
+    border: none;
 }
             
 .row_6 {
     height: 0%;
     background-color: #221F25;
     z-index: -1;
+    border: none;
 }
             
 .row_7 {
     height: 0%;
     background-color: #221F25;
     z-index: -1;
+    border: none;
 }
             
 .row_8 {
     height: 0%;
     background-color: #221F25;
     z-index: -1;
+    border: none;
 }
             
 .row_9 {
     height: 0%;
     background-color: #ECE1DC;
     z-index: -1;
+    border: none;
 }
 
 #emphasis{
@@ -77,6 +87,7 @@ html, body {
     margin: auto;
     font-size: 120px;
     font-family: Times New Roman, sans-serif;
+    border: none;
 }
 
 
@@ -84,38 +95,63 @@ html, body {
     height:14%;
     width: 100%;
     margin: auto;
+    border: none;
 }
   
 #dot{
     height:0%;
     margin: auto;
     text-align:center;
+    border: none;
 }
 
-.login {
-    opacity: 1;
+@media screen and (min-width:1000px) {
+    .login {
+        opacity: 1;
+        font-family: "Arial Narrow", Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+	   font-size: 12px;
+	   color: rgba(0,0,0,1);
+	   letter-spacing: 7.5px;
+	   text-align: center;
+    }
+			
+.settings_logo {
+    height: 10px;
+    width: 16px;
+    border: none;
+}
+			
+.start_button {
+    border: none;
+	background: none;
+	color: white;
+    z-index: 2;
+    border: none;
+}
+
+.message_above_start_button {
     font-family: "Arial Narrow", Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-	font-size: 12px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 7.5px;
-	text-align: center;
+    font-size: 12px;
+    color: #221F25;
+    border: none;
 }
-
-.content_1 {
-    display: none;
+			
+.start_logo {
+    height: 60px;
+    width: 60px;
+    z-index: 2;
+    border: none;
 }
-
-.content_2 {
-    display: none;
-}
+    
 
 .text_on_dark_background {
     font-family: "Arial Narrow", Arial, sans-serif;
     font-size: 14px;
     color: #FAF7F2;
 	text-align: left;
+    border: none;
 }
 
 .button_style_1 {
@@ -125,26 +161,22 @@ html, body {
     color: #FAF7F2;
 	text-align: left;
 }
+}
+
+@media screen and (max-width:1000px) {
+    .login {
+        opacity: 1;
+        font-family: "Arial Narrow", Arial, sans-serif;
+	   font-size: 50px;
+	   color: rgba(0,0,0,1);
+	   letter-spacing: 7.5px;
+	   text-align: center;
+    }
 			
 .settings_logo {
-    height: 10px;
-    width: 16px;
-}
-			
-.start_logo {
-    height: 60px;
-    width: 60px;
-    z-index: 2;
-}
-			
-.settings_logo_style {
-	border: none;
-	background: none;
-}
-			
-.login_button {
-	border: none;
-	background: none;
+    height: 50px;
+    width: 80px;
+    border: none;
 }
 			
 .start_button {
@@ -152,10 +184,54 @@ html, body {
 	background: none;
 	color: white;
     z-index: 2;
+    border: none;
 }
 
 .message_above_start_button {
+    display: none;
+}
+			
+.start_logo {
+    height: 150px;
+    width: 150px;
+    z-index: 2;
+    border: none;
+}
+
+.text_on_dark_background {
     font-family: "Arial Narrow", Arial, sans-serif;
-    font-size: 12px;
-    color: #221F25;
+    font-size: 20px;
+    color: #FAF7F2;
+	text-align: left;
+    border: none;
+}
+
+.button_style_1 {
+    padding: 10px 20px 10px 20px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    color: #FAF7F2;
+	text-align: left;
+}
+    
+}
+
+.content_1 {
+    display: none;
+}
+
+.content_2 {
+    display: none;
+}
+			
+.settings_logo_style {
+	border: none;
+	background: none;
+    border: none;
+}
+			
+.login_button {
+	border: none;
+	background: none;
+    border: none;
 }
