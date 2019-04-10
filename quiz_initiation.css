@@ -68,10 +68,8 @@ html, body {
 }
 
 
-
-
-            
-.login {
+@media screen and (min-width:1000px) {
+    .login {
     opacity: 1;
     font-family: "Arial Narrow", Arial, sans-serif;
     font-style: normal;
@@ -172,4 +170,131 @@ html, body {
     z-index: 2;
 	border: none;
 	background: none;    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+
+            
+.login {
+    opacity: 1;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 7.5px;
+	text-align: center;
+}
+
+.login_text {
+    color: #221F25;
+}
+
+.settings_logo {
+    height: 50px;
+    width: 80px;
+}
+			
+.settings_logo_style {
+	border: none;
+	background: none;
+}
+			
+.login_button {
+	border: none;
+	background: none;
+}
+			
+.login_button_2 {
+    width: 100px;
+    height: 40px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 12px;
+    background-color: #221F25;
+}
+			
+.register_button {
+    width: 200px;
+    height: 40px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 12px;
+    background-color: #ECE1DC;
+    border: 1px solid #221F25;
+}
+            
+.login_div {
+    margin: auto;
+}
+            
+.login_error {
+    display: none;
+}
+
+.input_style_1 {
+    width: 95%;
+    background-color: #ECE1DC;
+    border: 1px solid #221F25;
+}
+
+.checkbox_style {
+    background-color: #ECE1DC;
+    border: 1px solid #221F25;    
+}
+
+.checkbox_text_style {
+    opacity: 1;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.5px;
+}
+
+.dark_login_button {
+    text-align: center;
+}
+
+.scaring_text {
+    opacity: 1;
+    font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 80px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.5px;    
+    text-align: center;
+}
+
+.start_button_div {
+    text-align: center;
+	border: none;
+	background: none;    
+}
+			
+.start_logo {
+    height: 200px;
+    width: 200px;
+    z-index: 2;
+	border: none;
+	background: none;    
+}
 }
