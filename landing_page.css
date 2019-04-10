@@ -91,11 +91,20 @@ html, body {
 }
 
 
+#subtext{
+    height:1%;
+    text-align: center;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
 #GnosisImg{
-    height:14%;
+    height:50%;
     width: 100%;
     margin: auto;
     border: none;
+    padding-top :0em;
 }
   
 #dot{
