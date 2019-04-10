@@ -75,11 +75,8 @@ html, body {
 
 
 
-
-            
-
-            
-.login {
+@media screen and (min-width:1000px) {
+    .login {
     opacity: 1;
     font-family: "Arial Narrow", Arial, sans-serif;
     font-style: normal;
@@ -162,4 +159,117 @@ html, body {
     width: 80%;
     background-color: #221F25;
     border: 1px solid #ECE1DC;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+@media screen and (max-width:1000px) {
+
+            
+.login {
+    opacity: 1;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 7.5px;
+	text-align: center;
+}
+
+.content_1 {
+    display: none;
+    height: 80px;
+}
+
+.content_2 {
+    display: none;
+    height: 80px;
+}
+
+.content_3 {
+    display: none;
+    height: 80px;
+}
+
+.text_on_dark_background {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 30px;
+    color: #FAF7F2;
+	text-align: left;
+}
+
+.button_style_1 {
+    padding: 10px 20px 10px 20px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 30px;
+    color: #FAF7F2;
+	text-align: left;
+}
+
+.continue_button_style {
+    padding: 5px 20px 5px 20px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 30px;
+    color: #221F25;
+}
+			
+.settings_logo {
+    height: 50px;
+    width: 80px;
+}
+			
+.start_logo {
+    height: 100px;
+    width: 100px;
+    z-index: 2;
+}
+			
+.settings_logo_style {
+	border: none;
+	background: none;
+}
+			
+.login_button {
+	border: none;
+	background: none;
+}
+			
+.start_button {
+    border: none;
+	background: none;
+	color: white;
+    z-index: 2;
+}
+
+.message_above_start_button {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    color: #221F25;
+}
+
+.input_style_1 {
+    width: 80%;
+    background-color: #221F25;
+    border: 1px solid #ECE1DC;
+}
 }

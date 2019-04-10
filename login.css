@@ -244,6 +244,7 @@ html, body {
     width: 95%;
     background-color: #ECE1DC;
     border: 1px solid #221F25;
+    height: 80px;
 }
 
 .checkbox_style {
